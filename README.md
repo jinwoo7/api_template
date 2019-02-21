@@ -3,6 +3,18 @@
 ## Setup
 
 ### Step 1
+Install docker and docker-compose
+
+#### Ubuntu & debian
+```bash
+sudo apt install docker docker-compose
+```
+#### Fedora
+```bash
+sudo dnf install docker docker-compose
+```
+
+### Step 2
 ```bash
 docker-compose up
 ```
