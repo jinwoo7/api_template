@@ -15,6 +15,12 @@ sudo dnf install docker docker-compose
 ```
 
 ### Step 2
+Start docker
+```bash
+sudo systemctl start docker
+```
+
+### Run docker-compose
 ```bash
 docker-compose up
 ```
