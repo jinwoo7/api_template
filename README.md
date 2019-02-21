@@ -2,8 +2,7 @@
 
 ## Setup
 
-### Step 1
-Install docker and docker-compose
+### Step 1: Install
 
 #### Ubuntu & debian
 ```bash
@@ -14,13 +13,12 @@ sudo apt install docker docker-compose
 sudo dnf install docker docker-compose
 ```
 
-### Step 2
-Start docker
+### Step 2: Start
 ```bash
 sudo systemctl start docker
 ```
 
-### Run docker-compose
+### Step 3: Run
 ```bash
 docker-compose up
 ```
