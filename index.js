@@ -32,7 +32,6 @@ app.post('/items', (req, res) => {
     mongoDb.collection(collectionName)
         .insertOne(newItem)
         .then(function(response) {
-			console.log(req);
             res.send(`${newItem.name} has been added to ${collectionName} with an id:${response.insertedId}`);
         });
 });
